@@ -13,7 +13,7 @@ description: CTF 是什么，零基础怎么学，以及作为 AI Native 的一�
 
 CTF 的全称是 Capture The Flag，中文通常译作“夺旗赛”。你可以把它理解成网络安全领域的竞技游戏，或者一场融合了计算机知识的硬核解谜。
 
-在最适合新人上手的 **解题模式（Jeopardy）** 中，出题人会给你一个网站、一段可执行程序、一串加密数据，或者其他看似平平无奇的材料。你的任务是像侦探一样剖析它们，找出隐藏在漏洞或逻辑深处的一串特定字符——也就是 **flag**（旗帜），提交后即可得分。比如，一道题的终点可能是让你从附件中找出 `flag{hello_hnusec}`。（如果你想了解更详尽的背景，可以翻阅 [Hello CTF 的入门介绍](https://hello-ctf.com/hc-start/)。）
+在最适合新人上手的 **解题模式（Jeopardy）** 中，出题人会给你一个网站、一段可执行程序、一串加密数据，或者其他看似平平无奇的材料。你的任务是像侦探一样剖析它们，找出隐藏在漏洞或逻辑深处的一串特定字符——也就是 **flag**（旗帜），提交后即可得分。比如，一道题的终点可能是让你从附件中找出 `flag{hello_hnusec}`。
 
 在赛场上，你通常会遇到这五个经典方向：
 
@@ -46,8 +46,13 @@ CTF 的全称是 Capture The Flag，中文通常译作“夺旗赛”。你可�
 学习资源也忌讳“松鼠症”式的囤积。先从下面挑一个顺眼的入口，动手做起来：
 
 - **[Hello CTF](https://hello-ctf.com/)**：非常友好的中文入门指南，包含系统的知识脉络与初体验引导。
-- **[CyLab Security Academy](https://cylabacademy.org/)**：卡内基梅隆大学打造的安全学习平台（原经典入门平台 picoCTF 的学习入口已迁移至此，详见[迁移说明](https://picoctf.org/)），题目设计极佳，循序渐进。
+- **[CTFshow](https://ctf.show/)**：国内的中文 CTF 练习平台，我当年也用过。如果你想先在中文环境里熟悉做题流程，可以从它的入门题目开始，配合学习笔记和题解逐步练习。
+- **[CyLab Security Academy](https://cylabacademy.org/)**：卡内基梅隆大学打造的安全学习平台，题目设计极佳，循序渐进。
 - **[PortSwigger Web Security Academy](https://portswigger.net/web-security)**：如果你对 Web 安全感兴趣，这里的免费理论材料与配套交互靶场几乎是业界公认的黄金标准。
+- **[TryHackMe](https://tryhackme.com/)**：将知识讲解和动手实验结合起来，适合喜欢跟着引导一步步学习的同学。零基础可以先看看它的[新手学习路线](https://tryhackme.com/beginner-path)，边补计算机与网络基础，边完成小实验。
+- **[Hack The Box](https://www.hackthebox.com/)**：提供课程、靶机实验和 CTF 等不同形式的练习。刚接触时，可以先从 [HTB Academy](https://academy.hackthebox.com/) 的基础模块学起，再逐步尝试更完整的靶机与场景挑战。
+
+这些入口里既有 CTF 题库，也有课程和场景化靶场。你可以按自己的兴趣和基础选择，不用一口气全刷一遍。
 
 ### 做题时，留下自己的思维痕迹
 
@@ -94,7 +99,7 @@ CTF 的全称是 Capture The Flag，中文通常译作“夺旗赛”。你可�
 
 今天我们聊到的 Agent（智能体），早已不再是只能一问一答的聊天框，而是能够围绕目标自主调用工具、读取本地文件、编写并执行代码，还能根据报错信息不断自我修正的 AI 系统。
 
-它们甚至已经真实地坐上了安全竞赛的牌桌。例如，Anthropic 在 2025 年公开的研究中，就详细记录了大模型调用工具参加 CTF 的真实表现——既展现了惊人的自动化分析效率，也暴露出在长链路复杂任务中陷入死循环或方向跑偏的局限（尽管这受限于当时的模型与工具环境，不能直接等同于今天所有 Agent 的能力上限，但依然极具参考价值，详见[原始实验报告](https://www.anthropic.com/research/cyber-competitions)）。
+它们已经真实地坐上了安全竞赛的牌桌。早在 2025 年，Anthropic 就尝试让 AI [调用工具参加 CTF 比赛](https://www.anthropic.com/research/cyber-competitions)。它们有时解题很快，也会在复杂任务里卡住、反复走弯路。我们可以借助它们提高效率，也要学会判断什么时候该换一种思路。
 
 作为 AI Native 的一代 CTFer，我们既不需要假装 AI 不存在、用纯粹的体力劳动去和机器较劲；也不能沦为只会把题目塞给 AI、坐等吐出 flag 的“传声筒”。
 
