@@ -43,6 +43,6 @@ export function baseOptions(): BaseLayoutProps {
         active: 'url',
       },
     ],
-    githubUrl: 'https://github.com/HnuInformationSec/HNUCTF2025',
+    githubUrl: 'https://github.com/HNUinfoSec',
   };
 }

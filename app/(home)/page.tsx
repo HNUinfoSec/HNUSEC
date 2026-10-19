@@ -62,7 +62,27 @@ export default function HomePage() {
                   </svg>
                 </span>
               </Link>
+              <a
+                href="https://github.com/HNUinfoSec"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-10 py-5 bg-fd-card text-fd-foreground font-semibold rounded-xl border border-fd-border hover:bg-fd-accent transition-colors"
+              >
+                关注 HNUinfoSec
+              </a>
             </div>
+            <p className="text-fd-muted-foreground leading-relaxed">
+              欢迎新同学！关注我们的 GitHub 组织，也可以
+              <a
+                href="https://qm.qq.com/q/JSaru1wB4C"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-fd-primary underline underline-offset-4 hover:no-underline"
+              >
+                加入协会 QQ 群（571381107）
+              </a>
+              ，和大家一起交流学习。
+            </p>
           </div>
         </div>
       </section>
