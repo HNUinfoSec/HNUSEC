@@ -38,6 +38,12 @@ export function baseOptions(): BaseLayoutProps {
       },
       {
         type: 'main',
+        text: '生存指南',
+        url: '/docs/survival',
+        active: 'nested-url',
+      },
+      {
+        type: 'main',
         text: 'Links',
         url: '/friends',
         active: 'url',

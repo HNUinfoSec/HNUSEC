@@ -144,11 +144,14 @@ export default function HomePage() {
                 <h4 className="text-2xl font-semibold text-fd-card-foreground">HNU 生存指南</h4>
               </div>
               <p className="text-fd-muted-foreground mb-6 text-lg leading-relaxed">
-                如何在 HNU <s>不是那么好的</s>计算机学习环境中生存？
+                汇集在湖大学习与生活的亲身经验，也欢迎你写下自己的故事。
               </p>
-              <span className="text-fd-muted-foreground font-medium">
-                即将推出 →
-              </span>
+              <Link
+                href="/docs/survival"
+                className="inline-flex items-center text-fd-primary font-medium hover:underline"
+              >
+                阅读与参与 →
+              </Link>
             </div>
           </div>
         </div>
